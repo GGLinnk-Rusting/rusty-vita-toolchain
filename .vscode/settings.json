@@ -1,0 +1,4 @@
+{
+    "rust-client.channel": "stable",
+    "editor.rulers": [80, 120]
+}

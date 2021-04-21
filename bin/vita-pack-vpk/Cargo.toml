@@ -1,0 +1,16 @@
+[package]
+name = "vita-pack-vpk"
+description = "Generates PSVita VPK archive"
+version = "0.0.0"
+repository = "https://github.com/Rusty-VitaSDK/vita-toolchain-rs"
+authors = ["Gabriel GRONDIN <gglinnk@protonmail.com>"]
+categories = ["command-line-interface"]
+license-file = "LICENSE"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zip = "0.5.12"
+clap = "3.0.0-beta.2"
+exitcode = "1.1.2"
