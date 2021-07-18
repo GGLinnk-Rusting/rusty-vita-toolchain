@@ -1,7 +1,7 @@
 [package]
 name = "vita-pack-vpk"
 description = "Generates PSVita VPK archive"
-version = "0.0.0"
+version = "1.0.0"
 repository = "https://github.com/Rusty-VitaSDK/vita-toolchain-rs"
 authors = ["Gabriel GRONDIN <gglinnk@protonmail.com>"]
 categories = ["command-line-interface"]
@@ -14,3 +14,4 @@ edition = "2018"
 zip = "0.5.12"
 clap = "3.0.0-beta.2"
 exitcode = "1.1.2"
+walkdir = "2.3.2"
